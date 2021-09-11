@@ -21,7 +21,6 @@ public class PrototypeTest {
         System.out.println("PrototypeBean2 = " + PrototypeBean2);
         Assertions.assertThat(PrototypeBean1).isNotSameAs(PrototypeBean2);
 
-
         //ac.close();
     }
 
